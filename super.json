@@ -1,0 +1,26 @@
+[
+  {
+      "alterEgo":"Son Gohan",
+      "power": "Flight",
+      "catchPhrase":"'Never fear, I am here.''",
+      "rating": 9999,
+      "originStory":"Trained by a green alien man who was his father's archnemesis.",
+      "superName":"Saiyan Man"
+  },
+  {
+      "alterEgo":"Kamala Khan",
+      "power": "Elasticity",
+      "catchPhrase":"'You can do it!''",
+      "rating": 10,
+      "originStory":"Exposed to an alien chemical, Kamala's inhuman powers activated and she now tries to defend Jersery with her new abilities.",
+      "superName":"Ms. Marvel"
+  },
+  {
+      "alterEgo":"Elphaba",
+      "power": "Magic",
+      "catchPhrase":"'What A World. What a World.'",
+      "rating": 12,
+      "originStory":"After her little sister was crushed by a falling house, Elphaba swore vengeance on the unjust society that stood by and did nothing. Now she plots against a band of government-sanctioned hitmen and their little dog that have been sent to terminate her.",
+      "superName":"The Wicked Witch of the West"
+  }
+]

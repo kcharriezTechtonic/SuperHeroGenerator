@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Kenny's Superhero Maker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <h1>Superhero Generator</h1>
+      <table class="table table-striped">
+          <thead class="thead-dark">
+              <tr>
+                  <th>Emblem</th>
+                  <th>Superhero</th>
+                  <th>Alter Ego</th>
+                  <th>Power</th>
+                  <th>Origin Story</th>
+                  <th>Catch Phrase</th>
+                  <th>Power Rating</th>
+                  <th>Delete</th>
+              </tr>
+          </thead>
+          <tbody>
+          </tbody>
+      </table>
+      <hr>
+      <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="mildManneredID">Hero-Wanna-Be</label>
+                <input minlength="1" type="text" class="form-control" id="inputAlterEgo" placeholder="Your Mundane Name">
+              </div>
+            <button class="btn btn-primary" type="submit" onclick='mutateHero(
+            {
+              "mildManneredID":document.getElementById("inputAlterEgo").value,
+            })'>Mutate!</button>
+          </form>
+      <script defer src="http://unpkg.com/dexie@latest/dist/dexie.js"></script>
+      <script defer src="./js/indexedDB.js"></script>
+      <script defer src="./js/app.js"></script>
+      <script defer src="./js/populate-table.js"></script>
+  </body>
+</html>
